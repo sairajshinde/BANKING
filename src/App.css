@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color:black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #1e318dc2;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* .name {
+  background-image: url(./images/bg.jpg);
+} */
+
+.footer {
+  background-color:black;
+   position: absolute;
+   position: sticky;
+   z-index: 1 ; 
+  width: 100%;
+  padding-top: 20px;
+   bottom: 0; 
+}
+div .footer {
+  /* bottom:0px !important; */
+}
+.table {
+  margin-top: 30px;
+  
+}
+.transt {
+  /* margin: 20px; */
+  padding: 80px;
+}
+
+.content{
+  position: relative;
+  top:0;
+}
+.transaction {
+
+  margin-top: 30px;
+  padding: 70px;
+}
+
+#image {
+  background-size: 100% 100%;
+}
+
+#pricing{
+  padding: 100px;
+}
+
+.section-heading{
+  font-size: 2rem;
+  line-height: 1.5;
+  width: 40%;
+  background-color: black;
+  color:darkgoldenrod;
+  
+
+}
+
+
+#pricing{
+font-size: 1rem;
+line-height: 1.5;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+
+.card1{
+  width: 80%;
+  height: auto;
+  border: 1px solid transparent;
+  position: absolute;
+  background-color: blanchedalmond;
+  
+}
+
+.card2{
+  width: 80%;
+  height: auto;
+  border: 1px solid transparent;
+  position: absolute;
+  background-color: blanchedalmond;
+  left: 35px;
+  
+}
+
+.card3{
+  width: 80%;
+  height: auto;
+  border: 1px solid transparent;
+  position: absolute;
+  left: 800px;
+  top: -33px;
+  background-color: blanchedalmond;
+  
+}
+.pricing-column{
+  display: inline-block;
+}
+
